@@ -1,0 +1,90 @@
+2022-12-22 13:38:12.357 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-22 13:38:12.388 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger - -
+2022-12-22 13:38:12.401 +01:00 [INF] Hosting environment: Development
+2022-12-22 13:38:12.403 +01:00 [INF] Content root path: C:\Users\Wael\source\repos\DI_01\Logging_005
+2022-12-22 13:38:12.509 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger/index.html - -
+2022-12-22 13:38:12.517 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger - - - 301 - - 136.2530ms
+2022-12-22 13:38:12.731 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger/index.html - - - 200 - text/html;charset=utf-8 222.0673ms
+2022-12-22 13:38:12.750 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger/swagger-ui.css - -
+2022-12-22 13:38:12.751 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger/swagger-ui-standalone-preset.js - -
+2022-12-22 13:38:12.754 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger/swagger-ui-bundle.js - -
+2022-12-22 13:38:12.759 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/_framework/aspnetcore-browser-refresh.js - -
+2022-12-22 13:38:12.776 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 20.9859ms
+2022-12-22 13:38:12.800 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/_vs/browserLink - -
+2022-12-22 13:38:12.818 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-12-22 13:38:12.818 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-12-22 13:38:12.818 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-12-22 13:38:12.832 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger/swagger-ui.css - - - 200 142933 text/css 81.8892ms
+2022-12-22 13:38:12.844 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 93.4325ms
+2022-12-22 13:38:12.878 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 127.2552ms
+2022-12-22 13:38:12.885 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 84.4796ms
+2022-12-22 13:38:13.098 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger/v1/swagger.json - -
+2022-12-22 13:38:13.124 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger/favicon-32x32.png - -
+2022-12-22 13:38:13.129 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-12-22 13:38:13.133 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger/favicon-32x32.png - - - 200 628 image/png 8.7021ms
+2022-12-22 13:38:13.206 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.5804ms
+2022-12-22 13:38:18.692 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/WeatherForecast - -
+2022-12-22 13:38:18.739 +01:00 [INF] Executing endpoint 'Logging_005.Controllers.WeatherForecastController.Get (Logging_005)'
+2022-12-22 13:38:18.763 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logging_005.WeatherForecast] Get() on controller Logging_005.Controllers.WeatherForecastController (Logging_005).
+2022-12-22 13:38:18.774 +01:00 [INF] Executing ObjectResult, writing value of type 'Logging_005.WeatherForecast[]'.
+2022-12-22 13:38:18.796 +01:00 [INF] Executed action Logging_005.Controllers.WeatherForecastController.Get (Logging_005) in 24.3692ms
+2022-12-22 13:38:18.800 +01:00 [INF] Executed endpoint 'Logging_005.Controllers.WeatherForecastController.Get (Logging_005)'
+2022-12-22 13:38:18.804 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 105.8608 ms
+2022-12-22 13:38:18.807 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/WeatherForecast - - - 200 - application/json;+charset=utf-8 114.9700ms
+2022-12-22 13:49:27.235 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-22 13:49:27.260 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger/index.html - -
+2022-12-22 13:49:27.265 +01:00 [INF] Hosting environment: Development
+2022-12-22 13:49:27.268 +01:00 [INF] Content root path: C:\Users\Wael\source\repos\DI_01\Logging_005
+2022-12-22 13:49:27.551 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger/index.html - - - 200 - text/html;charset=utf-8 294.8053ms
+2022-12-22 13:49:27.579 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/_framework/aspnetcore-browser-refresh.js - -
+2022-12-22 13:49:27.587 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 7.8491ms
+2022-12-22 13:49:27.605 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/_vs/browserLink - -
+2022-12-22 13:49:27.664 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.1983ms
+2022-12-22 13:49:27.888 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger/v1/swagger.json - -
+2022-12-22 13:49:28.015 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.5465ms
+2022-12-22 13:49:32.912 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/WeatherForecast - -
+2022-12-22 13:49:32.948 +01:00 [INF] Executing endpoint 'Logging_005.Controllers.WeatherForecastController.Get (Logging_005)'
+2022-12-22 13:49:32.970 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logging_005.WeatherForecast] Get() on controller Logging_005.Controllers.WeatherForecastController (Logging_005).
+2022-12-22 13:49:32.982 +01:00 [INF] Executing ObjectResult, writing value of type 'Logging_005.WeatherForecast[]'.
+2022-12-22 13:49:33.002 +01:00 [INF] Executed action Logging_005.Controllers.WeatherForecastController.Get (Logging_005) in 23.5306ms
+2022-12-22 13:49:33.007 +01:00 [INF] Executed endpoint 'Logging_005.Controllers.WeatherForecastController.Get (Logging_005)'
+2022-12-22 13:49:33.010 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 87.4452 ms
+2022-12-22 13:49:33.014 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/WeatherForecast - - - 200 - application/json;+charset=utf-8 102.5171ms
+2022-12-22 13:50:11.082 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-22 13:50:11.111 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger/index.html - -
+2022-12-22 13:50:11.118 +01:00 [INF] Hosting environment: Development
+2022-12-22 13:50:11.121 +01:00 [INF] Content root path: C:\Users\Wael\source\repos\DI_01\Logging_005
+2022-12-22 13:50:11.399 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger/index.html - - - 200 - text/html;charset=utf-8 291.1936ms
+2022-12-22 13:50:11.414 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/_framework/aspnetcore-browser-refresh.js - -
+2022-12-22 13:50:11.431 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 16.1088ms
+2022-12-22 13:50:11.445 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/_vs/browserLink - -
+2022-12-22 13:50:11.494 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.1142ms
+2022-12-22 13:50:11.666 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger/v1/swagger.json - -
+2022-12-22 13:50:11.804 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.7452ms
+2022-12-22 13:50:17.959 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/WeatherForecast - -
+2022-12-22 13:50:17.992 +01:00 [INF] Executing endpoint 'Logging_005.Controllers.WeatherForecastController.Get (Logging_005)'
+2022-12-22 13:50:18.015 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logging_005.WeatherForecast] Get() on controller Logging_005.Controllers.WeatherForecastController (Logging_005).
+2022-12-22 13:50:18.030 +01:00 [INF] Executing ObjectResult, writing value of type 'Logging_005.WeatherForecast[]'.
+2022-12-22 13:50:18.059 +01:00 [INF] Executed action Logging_005.Controllers.WeatherForecastController.Get (Logging_005) in 27.8846ms
+2022-12-22 13:50:18.064 +01:00 [INF] Executed endpoint 'Logging_005.Controllers.WeatherForecastController.Get (Logging_005)'
+2022-12-22 13:50:18.067 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 101.0282 ms
+2022-12-22 13:50:18.071 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/WeatherForecast - - - 200 - application/json;+charset=utf-8 111.3874ms
+2022-12-22 13:56:01.023 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-22 13:56:01.054 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger/index.html - -
+2022-12-22 13:56:01.062 +01:00 [INF] Hosting environment: Development
+2022-12-22 13:56:01.065 +01:00 [INF] Content root path: C:\Users\Wael\source\repos\DI_01\Logging_005
+2022-12-22 13:56:01.603 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger/index.html - - - 200 - text/html;charset=utf-8 553.9681ms
+2022-12-22 13:56:01.627 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/_framework/aspnetcore-browser-refresh.js - -
+2022-12-22 13:56:01.635 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 8.1018ms
+2022-12-22 13:56:01.650 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/_vs/browserLink - -
+2022-12-22 13:56:01.707 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.5830ms
+2022-12-22 13:56:01.846 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/swagger/v1/swagger.json - -
+2022-12-22 13:56:01.985 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.9115ms
+2022-12-22 13:56:07.548 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44328/WeatherForecast - -
+2022-12-22 13:56:07.596 +01:00 [INF] Executing endpoint 'Logging_005.Controllers.WeatherForecastController.Get (Logging_005)'
+2022-12-22 13:56:07.618 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logging_005.WeatherForecast] Get() on controller Logging_005.Controllers.WeatherForecastController (Logging_005).
+2022-12-22 13:56:07.630 +01:00 [INF] Executing ObjectResult, writing value of type 'Logging_005.WeatherForecast[]'.
+2022-12-22 13:56:07.650 +01:00 [INF] Executed action Logging_005.Controllers.WeatherForecastController.Get (Logging_005) in 24.1743ms
+2022-12-22 13:56:07.654 +01:00 [INF] Executed endpoint 'Logging_005.Controllers.WeatherForecastController.Get (Logging_005)'
+2022-12-22 13:56:07.659 +01:00 [INF] HTTP GET /WeatherForecast responded 200 in 99.5827 ms
+2022-12-22 13:56:07.662 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44328/WeatherForecast - - - 200 - application/json;+charset=utf-8 114.5525ms

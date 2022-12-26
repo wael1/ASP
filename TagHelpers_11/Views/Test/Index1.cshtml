@@ -1,0 +1,8 @@
+﻿<ul>
+    @foreach (var movie in Model)
+    {
+        <li>
+            <a asp-controller="Movie" asp-action="Details" asp-route-id="@movie.Id">@movie.Title</a>
+        </li>
+    }
+</ul>

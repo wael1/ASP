@@ -1,0 +1,14 @@
+﻿@model BookViewModel
+@addTagHelper *, TagHelpers_11.CustomTagHelper
+
+
+<form asp-controller="Test" asp-action="Submit" class="form-group">
+    <label asp-for="title"></label>
+    <input asp-for="title" />
+    <label asp-for="author"></label>
+    <input asp-for="author" />
+    <button type="submit">OK!</button>
+</form>
+
+<p>Custom TagHelper Section Example !</p>
+<email mail-to="mastouriwael">wael</email>
